@@ -74,7 +74,7 @@ const TShirtPage = () => {
   }, [logo, logoPosition]);
 
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center pt-3">
       <canvas
         ref={canvasRef}
         width={500}
