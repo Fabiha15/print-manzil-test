@@ -1,6 +1,6 @@
 "use client";
 import { useState, useRef, useEffect } from "react";
-
+/* eslint-disable @typescript-eslint/no-explicit-any */
 const TShirtPage = () => {
   const canvasRef = useRef(null);
   const [logo, setLogo] = useState<string | null>(null);
@@ -69,6 +69,7 @@ const TShirtPage = () => {
   };
 
   // Redraw canvas whenever logo or position changes
+  
   useEffect(() => {
     drawCanvas();
   }, [logo, logoPosition]);

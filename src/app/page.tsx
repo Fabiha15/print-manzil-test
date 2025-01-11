@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import TableWithPagination from "./components/tableWithPagination";
 
 export default function Home() {
